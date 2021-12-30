@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>pick it</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h3>Input Ingredients!</h3>
+    <p>Please add any ingredients in your fridge.</p>
+    <div class="form-group">
+        <div class="input-form">
+            <input type="ingredient" class="input form-control" id="IngredientInput" placeholder="Enter Ingredient">
+            <button class="btn btn-secondary" onclick="addIngredient()">Add</button>
+        </div>
+    </div>
+    <div>
+          <div id="listView">
+          </div>
+          <div>
+            <button class="btn btn-primary" onclick="selectRecipe()">Submit</button>
+            <button class="btn btn-danger" onclick="reset()">Reset</button>
+          </div>
+    </div>
+    <script src="script.js"></script>
+    <h3>Ouptut</h3>
+    <div id="output">
+    </div>
+</body>

@@ -1,0 +1,12 @@
+* {
+  margin: 20px;
+}
+
+.input-form {
+  display: flex;
+  height: fit-content;
+}
+
+.input {
+  width: 300px;
+}
